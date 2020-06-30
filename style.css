@@ -212,12 +212,29 @@ i {
 }
 
 .caption{
-    margin-bottom: 16rem;
+    margin-bottom: 11rem;
 }
 
 .carsl{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
+    /* padding-top: 3rem; */
+}
+
+.play{
+    color: black;
+    text-align: center;
+    margin: 2rem 0;
+    animation: heartbeat 1s infinite;
+}
+
+@keyframes heartbeat{
+    0%{
+        color: black;
+    }
+    100%{
+        color: rgb(83, 1, 1);
+    }
 }
 
 .winner { background-color: #222222; }
