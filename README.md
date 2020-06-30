@@ -1,2 +1,3 @@
-# dice_rolling_game
-Pig Game using Javascript  , HTML and CSS.
+# Dice Rolling Game
+Pig Game using Javascript ,HTML and CSS.
+[Click to play](https://ds-pig-game.vercel.app/)
