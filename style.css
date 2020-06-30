@@ -16,7 +16,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
+    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url('../back.jpg');
     background-size: cover;
     background-position: center;
     font-family: Lato;
@@ -163,6 +163,14 @@ i {
 .btn-roll { top: 403px;}
 .btn-hold { top: 467px;}
 
+.dice {
+    position: absolute;
+    left: 50%;
+    top: 178px;
+    transform: translateX(-50%);
+    height: 100px;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+}
 .dice-1 {
     position: absolute;
     left: 50%;
@@ -201,6 +209,15 @@ i {
     color: #b5b5b5;
     height: 30px;
     font-size: 20px;
+}
+
+.caption{
+    margin-bottom: 16rem;
+}
+
+.carsl{
+    width: 80%;
+    margin: 0 auto;
 }
 
 .winner { background-color: #222222; }

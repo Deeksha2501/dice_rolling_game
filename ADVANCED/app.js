@@ -15,9 +15,9 @@ document.querySelector('.btn-roll').addEventListener('click', function () {
         var diceDOM1 = document.querySelector('.dice-1');
         var diceDOM2 = document.querySelector('.dice-2');
         diceDOM1.style.display = "block";
-        diceDOM1.src = 'dice-' + dice1 + '.png';
+        diceDOM1.src = '../dice-' + dice1 + '.png';
         diceDOM2.style.display = "block";
-        diceDOM2.src = 'dice-' + dice2 + '.png';
+        diceDOM2.src = '../dice-' + dice2 + '.png';
 
         //update the score and round score value
         if (dice1 > 1 && dice2 > 1) {
